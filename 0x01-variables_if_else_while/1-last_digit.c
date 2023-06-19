@@ -3,8 +3,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description - assign a random number to the variable n each time it is executed
- * Return - 0(Success)
+ * Description - Find out whether n is greater than 5
+ * Return: Always return 0(Success)
 */
 int main(void)
 {
@@ -21,7 +21,7 @@ if (n == 0)
 {
 printf("Last digit is %d is %d is zero\n", n, m)
 }
-if (m <6 && m != 0)
+if (m < 6 && m != 0)
 {
 printf("Last digit of %d is %d is less than 6 and not 0\n", n, m)
 }
