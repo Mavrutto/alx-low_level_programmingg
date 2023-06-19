@@ -1,16 +1,17 @@
 #include <stdio.h>
 /**
  *main - Entry point
- *Description - 
- *
+ *Description - Alphabets in lowercase
+ *Return: Always return 0(success)
 */
 int main(void)
 {
 char c;
-c= 'a';
+c = 'a';
 while
-( c <= 'z') {
-if(c != 'q' && c != 'e' && c != 'z')
+(c <= 'z')
+{
+if (c != 'q' && c != 'e' && c != 'z')
 putchar(c);
 c++;
 }
