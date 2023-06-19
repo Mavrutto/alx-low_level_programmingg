@@ -2,10 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Entry point
- * Description - The output should be zero, negative or positive
- * Return - 0 (Success)
-*/int main(void)
+*main - Entry point
+* Description - The output should be zero, negative or positive
+* Return - 0 (Success)
+*/ int main(void)
 {
 int n;
 
