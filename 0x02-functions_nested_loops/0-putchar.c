@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /**
  * main - Entry point
  * Description - print putchar
@@ -6,7 +6,7 @@ include "main.h"
 */
 int main(void)
 {
-_putchar("_");
+i_putchar("_");
 _putchar("p");
 _putchar("u");
 _putchar("t");
