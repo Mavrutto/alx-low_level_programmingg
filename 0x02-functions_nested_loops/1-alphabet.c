@@ -1,8 +1,7 @@
 #include "main.h
 "
 /**
- * main - Entry point
- *
+ * print_alphabet - a to z
  * Return: 0(Success)
 */
 
