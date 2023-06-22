@@ -1,10 +1,11 @@
-#include "main.h"
-
+#include "main.h
+"
 /**
  * main - Entry point
- * Description - alphabet lowercase
+ *
  * Return: 0(Success)
 */
+
 void print_alphabet(void)
 {
 char letter;
