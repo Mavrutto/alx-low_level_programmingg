@@ -1,6 +1,8 @@
 #include "main.h"
 /**
- *print_line - 
+ *print_line - straight -line
+ *@n: number of times
+ *return: 0(Success)
 */
 void print_line(int n)
 {
