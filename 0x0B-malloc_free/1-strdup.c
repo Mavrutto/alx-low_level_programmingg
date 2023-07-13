@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _strdup - duplicate to new meory
+ **_strdup - duplicate to new meory
  * @str: char
  * Return: 0
  */
 char *_strdup(char *str)
 {
-char *copy
+char *copy;
 int i, len = 0;
 if (str == 0)
-return (NULL)
+return (NULL);
 while (str[len] != '\0')
 len++;
 copy = (char *)malloc((sizeof(char) * len) +1);
