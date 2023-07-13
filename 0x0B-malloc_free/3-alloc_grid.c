@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
 /**
  * alloc_grid - nested loop
@@ -12,7 +13,7 @@ int **mee;
 int x, y;
 if (width <= 0)
 return (NULL);
-if (height < = 0)
+if (height <= 0)
 return (NULL);
 mee = malloc(sizeof(int *) * height);
 if (mee == NULL)
