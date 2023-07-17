@@ -1,20 +1,19 @@
-#include "main.h"
+#include <stdio.h>
 /**
- * print_alphabet_x10 - make alphabet 10 times
- * Return: always0(Success)
-*/
+ * print_alphabet - entry
+ * Description: alphabetic 10 lines
+ * Return: Void
+ */
 void print_alphabet_x10(void)
 {
-char letter;
-int i;
-i = 0;
-while (i < 10)
+int x;
+int y;
+for (x = 1; x <= 10; x++)
 {
-for (letter = 'a'; letter <= 'z'; letter++)
-{
-_putchar(letter);
-}
-_putchar('\n');
-i++;
+	for (y = 97; y <= 122; y++)
+	{
+		putchar(y);
+	}
+	putchar('\n');
 }
 }
